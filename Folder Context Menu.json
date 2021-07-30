@@ -1,0 +1,5 @@
+[
+	{ "caption": "-", "id": "archive" },
+	{ "command": "open_terminal", "caption": "Open Terminal" },
+	{ "command": "open_native_file_manager", "caption": "Open Directory" }
+]
