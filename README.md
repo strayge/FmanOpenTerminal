@@ -1,13 +1,14 @@
 # FmanOpenTerminal
 
 ## Overview
-Fman Plugin to open iTerm / [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab) at the current directory (instead of just opening cmd.exe).
-When Windows Terminal is not installed, the regular command line opens.
 
-This plugin overrides the default F9 binding.
+Fman Plugin to open [iTerm2](https://iterm2.com/) / [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab) at the current directory (instead of opening default Terminal.app / cmd.exe).  
+When `iTerm2` / `Windows Terminal` is not installed, the regular command line apps opens.
 
-In addion to the f9 key binding or the opening of the terminal using Fman's goto (ctrl+shift+p) command, it is also possible to open the terminal using the context menu.  
-The native context menu as well as the file context menu have an "Open Terminal" added to them.
+This plugin overrides the default `open_terminal` command, so F9 or any custom binding (if it was changed) still works as before.
+
+In addion it is also possible to open the terminal using the context menu.  
+Both file & folder context menus have new `Open Terminal` (and `Open Directory` for connsistency) entries.
 
 ## Installation
 [Ctrl+Shift+P -> Install Plugins -> FmanOpenTerminal](https://fman.io/docs/installing-plugins)
