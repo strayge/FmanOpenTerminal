@@ -10,7 +10,7 @@ In addion to the f9 key binding or the opening of the terminal using Fman's goto
 The native context menu as well as the file context menu have an "Open Terminal" added to them.
 
 ## Installation
-[Ctrl+Shift+p -> Install Plugins -> FmanOpenTerminal](https://fman.io/docs/installing-plugins)
+[Ctrl+Shift+P -> Install Plugins -> FmanOpenTerminal](https://fman.io/docs/installing-plugins)
 
 ## Usage
 - Click F9
